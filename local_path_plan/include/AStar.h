@@ -25,7 +25,7 @@ public:
     void CalGHF(MyPoint* checkingPoint, float &G, float &H, float &F);
     std::vector<MyPoint*> GetNearPoints(MyPoint *checkingPoint);
     MyPoint* IsInOpenList(MyPoint *pi);
-    void Add2OpenList(MyPoint *pi);     // 插入点时按由小到大排序
+    void Add2OpenList(MyPoint *pi);     
     MyPoint* ChooseMinFPoint();
     void EraseOnePoint(MyPoint* ptr);
     
